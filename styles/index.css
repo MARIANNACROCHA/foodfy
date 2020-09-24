@@ -1,0 +1,215 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+
+body,html {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: none;
+}
+
+header{
+    width: 940px;
+}
+
+header figure {
+    margin-top: 36.1px;
+    margin-left: 231px;
+    position: absolute;
+}
+
+header figure img {
+    width: 90.6px;
+    height: 26.9px;
+    background-color: #111111 100%;
+    box-sizing: border-box;   
+}
+
+nav {
+    position: relative;
+    left: 445px;
+    top: 38px; 
+    width: 440px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type:none;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#111111;
+    padding-right: 19px;    
+}
+
+.container {     
+    padding: 5px;
+    margin:93px 0px 0px 0px;
+    box-sizing: border-box;   
+    height: 1041px;    
+}
+
+#banner {
+    box-sizing: border-box;
+    background-color: #FBDFDB;
+    width: 940px;
+    height: 366px;
+    margin:0 auto;
+    padding: 0;
+    border-radius: 30px;    
+}
+
+h2 {
+    margin:0;
+    background-color:  #FBDFDB;
+    position: absolute;
+    top:230px;
+    left:290px;
+    font-size: 32px;   
+} 
+
+#banner_pai{
+    margin:0;
+    position: relative; 
+    width: 216px;
+    height: 300px;    
+}
+
+#chef {
+    width: 216px;
+    height: 300px;
+    left: 624px;
+    display: block;
+    position: absolute;
+    padding:0;
+    top: 65px;    
+}
+
+figcaption {
+    margin:0;
+    background-color:  #FBDFDB;
+    position: relative;
+    top:165px;
+    left:85px;
+    opacity: 70%;
+    width: 316px;
+    height: 84px;
+    font-size: 18px;
+} 
+
+h3 {
+    font-size: 24px;
+    height: 28px;
+    width: 174px;
+    margin: 0, auto;
+    padding-left: 200px;  
+}
+
+.cards {
+    max-width: 800px;
+    margin:auto ;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    position: relative;
+}    
+
+.card {
+    padding: 15px;
+}
+
+.card__image-container img {
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    width: 300px;
+    height: 140px;
+    text-align: right;
+}
+
+.card__info p {
+    font-size: 18px;
+    color: #111111;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+#picture__ {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.general_footer {
+    position:relative;
+    width: auto;
+    height: 100%;
+}
+
+.footer {
+    position:absolute;
+    background-color: #EEEEEE;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 23px 0px 23px 0px;
+    width: 100%;
+    height: auto;  
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav ul li a {
+        left: 15px;
+    }
+
+    #banner {
+        width: 520px;
+    }
+
+    h2 {
+        font-size: 16px;
+        left:100px;
+        top: 100px;
+        position: relative;
+        width: 100px;
+    }
+
+    #chef {
+        width: 40%;
+        height: 40%;
+        left: 250px;
+        
+    }
+
+    figcaption {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        left: 120px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 602px) {
+    .container {
+        width: 30%;      
+      }
+  
+      h2 {
+          font-size: 16px;
+          left:70px;
+      }
+}
