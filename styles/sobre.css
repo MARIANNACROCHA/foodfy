@@ -102,10 +102,12 @@ footer {
     }
 
     footer {
-        width: 75vw;
+        width: 100vw;
         height: 50px;
-        top: 1000px;
-                 
+        margin: auto;
+        bottom: 0;
+        position: fixed;      
+        
     }
 }
 
