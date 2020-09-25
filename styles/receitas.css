@@ -167,3 +167,58 @@ footer {
     text-align: center;
     padding: 23px 0px 23px 0px;
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        width: 400px;
+    }
+
+    header figure{
+        margin: 0;
+    }
+
+    nav {
+        left: 80px;
+    }
+
+    nav ul li a {
+        margin:auto;
+    }  
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .modal  {
+        width: 70%;
+        height: 40%;
+        margin: 5vh;
+      
+    }
+
+    .modal-content img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .modal .close-modal {
+        top: 200px;
+        left: 150px;
+        font-size: 12px;
+    }
+  
+
+
+
+
+
+    footer {
+        width: 100vw;
+        height: 50px;
+        margin: auto;
+        bottom: 0;
+        position: fixed;      
+        
+    }
+    
+}
