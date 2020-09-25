@@ -104,10 +104,7 @@ footer {
     footer {
         width: 100vw;
         height: 50px;
-        margin: auto;
-        bottom: 0;
-        position: fixed;      
-        
+        top: 1000px;             
     }
 }
 
